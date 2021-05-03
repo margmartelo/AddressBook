@@ -29,7 +29,7 @@ Testing is being run by RSpec - examples, failures.
 $ git clone git@github.com:margmartelo/AddressBook.git
 $ cd AddressBook
 $ gem install rspec
-$ bundle install
+$ bundle
 $ irb
 ```
 <p>&nbsp;</p>
