@@ -34,6 +34,24 @@ $ irb
 ```
 <p>&nbsp;</p>
 
+**To load the address_book:**
+```
+$ require './lib/address_book.rb'
+``` 
+<p>&nbsp;</p>
+
+**To create a new instance of address_book (with a exemplificative list of entries):**
+```
+$ address_book = AddressBook.new({ Smith: "07512345678", Williams: "07587654321" })
+``` 
+<p>&nbsp;</p>
+
+**To search for a phone number by its associated surname (ex. "Smith"):**
+```
+$ address_book.find_by("Smith")
+```
+<p>&nbsp;</p>
+
 ## ☎️ **How to run the tests:**
 ```bash
 $ rspec
