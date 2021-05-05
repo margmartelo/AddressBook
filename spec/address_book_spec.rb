@@ -13,7 +13,7 @@ describe AddressBook do
     end
 
     it "should raise an error if provided surname is an empty string" do
-        expect {address_book.find_by(" ")}.to raise_error("Please provide the surname of the contact you wish to get")
+        expect {address_book.find_by("")}.to raise_error("Please provide the surname of the contact you wish to get")
     end
 end
 
