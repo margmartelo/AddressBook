@@ -5,6 +5,7 @@ class AddressBook
     end
 
     def find_by(surname)
+        surname = surname.to_sym
         return @list_of_entries[surname] 
     end
 end
